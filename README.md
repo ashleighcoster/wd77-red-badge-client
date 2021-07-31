@@ -5,7 +5,7 @@ Creating positive and healthy habits have been a hot topic lately, especially co
 
 - DATA FLOW: 
 
-Client Side: /user endpoint
+- Client Side: /user endpoint
 1) Auth/Register:
 User's can select to either register as a new user or login by selecting a button on the home page. That will redirect them to an overall Auth page. 
 Registration form on Auth page validates password contents and sends POST request to /user/register.
@@ -13,7 +13,7 @@ Registration form on Auth page validates password contents and sends POST reques
 2) Auth/Login:
 Login form, sends POST to user/login
 
-Client Side: /habit endpoint 
+- Client Side: /habit endpoint 
 1) Habits Page:
 User will be able to enter new habits on this page - submit button sends POST request to habit/entry
 Pass habit details as props to profile page
@@ -21,7 +21,7 @@ Pass habit details as props to profile page
 2) Profile Page:
 Will fetch all current habits and each has a link to delete habit, update habit, or add a journal entry. 
 
-Client Side: /journal enpoint 
+- Client Side: /journal enpoint 
 1) Journal Page:
 User will be able to add journal entries on this page to help track progress on habits. 
 

@@ -3,6 +3,8 @@ Creating positive and healthy habits have been a hot topic lately, especially co
 
 - PERN Stack Application - utilizing PostgresSql, Express, React, and Node 
 
+- STYLING: Material UI was utilized for this project 
+
 - DATA FLOW: 
 
 Client Side: /user endpoint
@@ -28,7 +30,7 @@ User will be able to add journal entries on this page to help track progress on 
 2) Once a journal entry has been created, user's can also delete or update that entry. 
 
 
-- STYLING: Material UI was utilized for this project 
+
 
 
 
